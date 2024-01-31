@@ -1,0 +1,222 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: NoticiaText;
+    src: url(./NoticiaText-Bold.woff);
+    
+}
+@font-face {
+    font-family: WorkSans;
+    src: url(./WorkSans-Medium.woff);
+    
+}
+body{
+    font-size:16px;
+    
+    font-family: WorkSans ;
+   
+}
+
+.container{
+    max-width:1240px;
+    margin:0 auto;
+}
+.headtext{
+    background-color: #C8F169;
+    font-family: WorkSans;
+    padding:10px 0;
+    font-weight: lighter;
+    color: #043F2E;
+}
+.headtext a{
+    color:#043F2E;
+}
+.headtext p{
+    text-align: center;
+}
+
+/* All flex classes*/
+.flex-space-between{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+
+}
+.flex-align-center{
+    display:flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.gap{
+    gap:50px;
+}
+
+/* nav designing */
+.logo{
+    padding:20px;
+}
+.white{
+    background-color: #fff;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap:30px;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+nav a{
+    text-decoration: none;
+    color:#043F2E;
+}
+nav li{
+    list-style-type: none;
+}
+.border-bottom-radius{
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+}
+
+/* button designing */
+.primary-btn{
+    border:2px solid #043F2E;
+    background: transparent;
+    padding:10px 20px 10px 20px;
+    color:#043F2E;
+    /* font-weight: 600; */
+}
+.hover{
+    background-color: #043F2E;
+    color:#C8F169;
+}
+.btn{
+    padding:20px;
+}
+
+/*hero section designing */
+.grid{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 150px 150px 150px; 
+    font-family:NoticiaText ;
+    /* column-gap: 30px;
+    row-gap: 30px; */
+    /* max-width: 1000px; */
+    margin: 0 auto;
+    padding: 80px 0;
+    /* gap:5px; */
+}
+.business-intelligence{
+    display: grid;
+    grid-column-start:1 ;
+    grid-column-end:4; 
+    background-color:#C8F169 ;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color:#043F2E;
+}
+.business-intelligence h1{
+    font-size: 72px;
+}
+.graph-div{
+    display: grid;
+    grid-column-start:4 ;
+    grid-column-end:5; 
+    grid-row-start:1 ;
+    grid-row-end:3; 
+    background-color: #2A6B2C;
+    padding:30px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+.built-around{
+    display: grid;
+    grid-column-start:2 ;
+    grid-column-end:4; 
+    background-color:#C8F169;
+    border-top-left-radius: -20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: #043F2E;
+}
+.built-around h1{
+    font-size:72px;
+    background-color:#C8F169;
+    color:#043F2E;
+}
+.data-teams{
+    display: grid;
+    grid-column-start:3 ;
+    grid-column-end:5; 
+    background-color:#C8F169;
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    column-gap: 0px;
+    row-gap: 0px;
+}
+.data-teams h1{
+    font-size: 72px;
+    color: #043F2E;
+}
+.content{
+    display: grid;
+    grid-column-start:3;
+    grid-column-end:6; 
+    /* background-color:#C8F169 */
+    font-family:WorkSans;
+    color: #fff;
+    padding:20px 0;
+}
+.secondary-btn{
+    border:2px solid #fff;
+    background: transparent;
+    padding:10px 20px 10px 20px;
+    color:#fff;
+    /* font-weight: 600; */
+}
+.hover-white{
+    background-color: #FFFFFF;
+    color:#043F2E;
+}
+.hero-image{
+    background-image: url(./Group\ 2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-row-start:2 ;
+    grid-row-end: 5;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.graph-p{
+    font-size: 32px;
+    color:#C8F169;
+}
+.percent{
+    
+        font-size: 32px;
+        color:#C8F169;
+    
+}
+.btn1{
+    padding:30px 0;
+}
+.hero{
+    background-color:#043F2E; 
+}
